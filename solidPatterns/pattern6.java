@@ -1,21 +1,21 @@
-package pattern;
+package solidPatterns;
 import java.util.*;
 
-public class pattern3 {
-    public static void main(String[]args){
+public class pattern6 {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number of rows: ");
+        System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
 
         for(int row = 1; row<=n; row++){
-            for(int col = 1; col<=row; col++){
+
+            // stars = n - i and i = row-1 
+            for(int col = 1; col<=n-(row-1); col++){
                 System.out.print("* ");
-                //the number of stars to be printed is same as the row number
             }
             System.out.println();
         }
         sc.close();
-
     }
 }
