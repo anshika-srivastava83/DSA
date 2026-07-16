@@ -14,7 +14,7 @@ public class pattern3 {
 
             // starting spaces
             for (int col = 1; col <= n - row; col++) {
-                System.out.print(" "); // single space for starting spaces
+                System.out.print("  "); // single space for starting spaces
             }
 
             // pattern = 1 star + space + 1 star -> till n-1
