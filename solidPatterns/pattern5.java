@@ -13,7 +13,7 @@ public class pattern5 {
 
             // spaces = row - 1
             for (int col = 1; col <= row -1; col++){
-                System.out.print(" ");
+                System.out.print("  ");
             }
 
             //stars 

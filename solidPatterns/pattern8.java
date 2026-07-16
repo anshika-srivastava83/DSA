@@ -14,7 +14,7 @@ public class pattern8 {
 
             //space 
             for(int col = 1; col <= row-1; col++){
-                System.out.print(" ");
+                System.out.print("  ");
             }
 
             //stars

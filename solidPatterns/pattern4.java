@@ -15,7 +15,7 @@ public class pattern4 {
 
             //spaces 
             for(int col = 1; col <= n-row; col++){
-                System.out.print(" ");
+                System.out.print("  ");
             }
             //stars
             for(int col=1; col <= n; col++){

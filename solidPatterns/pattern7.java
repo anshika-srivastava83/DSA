@@ -13,7 +13,7 @@ public class pattern7 {
 
             //space = n - row for each column 
             for(int col = 1; col<= n-row; col++){
-                System.out.print(" ");
+                System.out.print("  ");
             }
 
             //star
