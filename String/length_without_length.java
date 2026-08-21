@@ -1,14 +1,10 @@
 package String;
-import java.util.*;
 
 public class length_without_length {
     
     static int getLength(String str){
-        int count = 0;
         char str2[] = str.toCharArray();
-        for (char ch : str2) {
-            count++;
-        }
+        int count = str2.length;
         return count;
     }
 
