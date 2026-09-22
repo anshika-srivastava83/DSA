@@ -17,5 +17,6 @@ public class printDigits {
         int n = sc.nextInt();
         System.out.println("The digits of the number are: ");
         print(n);
+        sc.close();
     }
 }
