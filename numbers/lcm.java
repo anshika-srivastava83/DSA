@@ -12,7 +12,7 @@ public class lcm {
         return n;
     }
 
-    static int findlcm(int a, int b){
+    static int findlcm(int a, int b){                            //LCM = (a*b)/HCF
         int m = findgcd(a,b);
         int n = (a*b)/m;
         return n;
