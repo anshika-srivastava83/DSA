@@ -1,7 +1,8 @@
 package numbers;
 
 import java.util.Scanner;
-
+//armstrong number -> sum of cubes of digits of a number = number itself 
+//eg: 153; (1)^3 + (5)^3 + (3)^3 = 153 
 public class armstrong {
     static int check(int num){
         int sum = 0;

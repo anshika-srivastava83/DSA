@@ -6,7 +6,7 @@ public class countDigits {
     static int count(int num){
         int i = 0;
         while (num != 0) {
-            int digit = num%10;
+            //int digit = num%10;
             i++;
             num = num/10;
         }

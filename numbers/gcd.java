@@ -1,7 +1,8 @@
 package numbers;
 
 import java.util.Scanner;
-
+//gcd -> gretest common divisor/HCF
+//solved using euclid's formula -> gcd(a,b) = gcd(b,a%b)
 public class gcd {
     static int findgcd(int n, int m){
         while(m!=0){
