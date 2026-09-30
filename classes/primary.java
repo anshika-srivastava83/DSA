@@ -15,6 +15,23 @@ public class primary {
         student B = new student(A)
         it becomes copy ctor
         */
+
+        //ENCAPSULATION
+        student2 A = new student2(1, "rekha", 18, 6, 49, 20);
+        System.out.println(A.getMark());
+        /*
+        A.mark(); 
+        it shows that this method is not visible
+        */
+
+        /* 
+        A.age2 = 20; 
+        shows the age2 is not visible as an attribute
+        */
+
         
+        System.out.println(A.getAge2());
+        A.setAge(20);
+        System.out.println(A.getAge2());
     }
 }
