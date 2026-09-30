@@ -1,5 +1,8 @@
 package classes;
 
+import classes.encapsulation.student;
+import classes.encapsulation.student2;
+
 public class primary {
     public static void main(String[] args) {
         student s1 = new student();

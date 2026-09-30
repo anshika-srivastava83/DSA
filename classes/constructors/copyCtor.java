@@ -1,4 +1,6 @@
-package classes;
+package classes.constructors;
+
+import classes.encapsulation.student;
 
 public class copyCtor {
     public static void main(String[] args) {

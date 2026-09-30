@@ -1,4 +1,6 @@
-package classes;
+package classes.constructors;
+
+import classes.encapsulation.student;
 
 public class defaultCtor {
     //this is a main file that will run on default constructor but values of the student details will be given

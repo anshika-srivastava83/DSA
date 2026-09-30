@@ -1,4 +1,6 @@
-package classes;
+package classes.constructors;
+
+import classes.encapsulation.student;
 
 public class paraCtor {
     //This is the second type of constructor

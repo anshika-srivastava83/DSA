@@ -1,4 +1,4 @@
-package classes;
+package classes.encapsulation;
 
 public class student {
     //attributes
